@@ -6,10 +6,12 @@
 }
 a {
     text-decoration: none;
+    color: $text-color;
 }
 ul {
     li {
         list-style: none;
+        font-size: 20px;
     }
 }
 button, input {

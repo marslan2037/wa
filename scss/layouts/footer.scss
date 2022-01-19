@@ -1,3 +1,44 @@
 footer {
-    
+    margin-bottom: 10px;
+    .upper-footer {
+        padding: 0px 164px 0px 36px;
+        height: 107px;
+        background-color: $footer-bg;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        margin-bottom: 3px;
+        align-content: center;
+        .logo {
+            justify-self: start;
+        }
+        .address {
+            justify-self: center;
+            p {
+                font-size: 17.5px;
+                color: $light-color;
+            }
+        }
+        .web-url {
+            justify-self: end;
+            p {
+                font-size: 17.5px;
+                color: $light-color;
+            }
+        }
+    }
+    .lower-footer {
+        background-color: $footer-bg;
+        height: 58px;
+        padding: 0px 36px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        span {
+            color: $light-color;
+            &:last-child {
+                justify-self: end;
+            }
+        }
+    }
 }

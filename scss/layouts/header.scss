@@ -1,3 +1,28 @@
 header {
-    
+    border-bottom: 2px solid $menu-border;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    height: 118px;
+    ul {
+        display: flex;
+        grid-gap: 34px;
+        justify-self: start;
+        // li {
+        //     //  border-bottom: 2px solid $menu-border;
+        // }
+    }
+    h1 {
+        width: 267px;
+        height: 55px;
+        justify-self: end;
+        a {
+            display: block;
+            text-indent: -90000px;
+            background-image: url(../images/logo_03.jpg);
+            width: 267px;
+            height: 55px;
+        }
+    }
 }
